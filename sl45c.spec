@@ -6,9 +6,9 @@ Release:	1
 Epoch:		1
 License:	LGPL
 Group:		X11/Libraries
-Source0:	http://www.sl45i.nl/sl45c/%{name}-%{version}.tar.gz
+Source0:	http://www.freshdot.net/sl45c/%{name}-%{version}.tar.gz
 # Source0-md5:	07a8831e5dfc3fa9a7e8783120fdb7ef
-URL:		http://www.sl45i.nl/sl45c/
+URL:		http://www.freshdot.net/sl45c/
 BuildRequires:	automake
 BuildRequires:	autoconf
 BuildRequires:	libtool
@@ -49,6 +49,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%attr(755,root,root) %{_bindir}/*
 %doc doc/FORMATS doc/vCard.format THANKS README
+%attr(755,root,root) %{_bindir}/*
 %{_mandir}/man1/*
