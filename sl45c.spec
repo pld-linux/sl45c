@@ -6,7 +6,8 @@ Release:	1
 Epoch:		1
 License:	LGPL
 Group:		X11/Libraries
-Source0: http://www.sl45i.nl/sl45c/%{name}-%{version}.tar.gz
+Source0:	http://www.sl45i.nl/sl45c/%{name}-%{version}.tar.gz
+URL:		http://www.sl45i.nl/sl45c/
 BuildRequires:	automake
 BuildRequires:	autoconf
 BuildRequires:	libtool
