@@ -32,6 +32,8 @@ rm -rf $RPM_BUILD_ROOT
 
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
+install -d $RPM_BUILD_ROOT{%{_docdir}/%{name}-%{version},%{_mandir}/man1} 
+install doc/sl45c.1 $RPM_BUILD_ROOT%{_mandir}/man1
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -39,3 +41,5 @@ rm -rf $RPM_BUILD_ROOT
 %files 
 %defattr(644,root,root,755)
 %attr(755,root,root) %{_bindir}/*
+%doc doc/FORMATS doc/vCard.format THANKS README
+%{_mandir}/man1/*
