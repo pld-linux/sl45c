@@ -29,10 +29,10 @@ komórkowych Siemens SL45(i).
 rm -f missing
 %{__libtoolize}
 %{__gettextize}
-%{__aclocal} 
+%{__aclocal}
 %{__autoconf}
 %{__automake}
-%configure 
+%configure
 %{__make}
 
 %install
@@ -47,7 +47,7 @@ install doc/sl45c.1 $RPM_BUILD_ROOT%{_mandir}/man1
 %clean
 rm -rf $RPM_BUILD_ROOT
 
-%files 
+%files
 %defattr(644,root,root,755)
 %attr(755,root,root) %{_bindir}/*
 %doc doc/FORMATS doc/vCard.format THANKS README
