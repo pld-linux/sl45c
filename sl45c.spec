@@ -1,13 +1,13 @@
 Summary:	SL45c - Siemens SL45 Control Center & Datasuite
 Summary(pl):	SL45c - narzêdzia dla telefonów Siemens SL45
 Name:		sl45c
-Version:	0.5.1
-Release:	1
+Version:	0.7
+Release:	0.1
 Epoch:		1
 License:	LGPL
 Group:		X11/Libraries
 Source0:	http://www.freshdot.net/sl45c/%{name}-%{version}.tar.gz
-# Source0-md5:	07a8831e5dfc3fa9a7e8783120fdb7ef
+# Source0-md5:	ac59a372d1d297bb0d1ed85e1c78f4f8
 URL:		http://www.freshdot.net/sl45c/
 BuildRequires:	automake
 BuildRequires:	autoconf
@@ -27,12 +27,6 @@ komórkowych Siemens SL45(i).
 %setup -q
 
 %build
-rm -f missing
-%{__libtoolize}
-%{__gettextize}
-%{__aclocal}
-%{__autoconf}
-%{__automake}
 %configure
 %{__make}
 
