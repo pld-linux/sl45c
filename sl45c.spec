@@ -32,11 +32,11 @@ komórkowych Siemens SL45(i).
 
 %install
 rm -rf $RPM_BUILD_ROOT
+install -d $RPM_BUILD_ROOT%{_mandir}/man1
 
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
 
-install -d $RPM_BUILD_ROOT%{_mandir}/man1
 install doc/sl45c.1 $RPM_BUILD_ROOT%{_mandir}/man1
 
 %clean
