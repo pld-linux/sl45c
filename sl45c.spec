@@ -1,5 +1,5 @@
 Summary:	SL45c - Siemens SL45 Control Center & Datasuite
-Summary(pl):	SL45c - narzêdzia dla telefonów Siemens SL45
+Summary(pl.UTF-8):   SL45c - narzÄ™dzia dla telefonÃ³w Siemens SL45
 Name:		sl45c
 Version:	0.7
 Release:	0.1
@@ -19,9 +19,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 SL45c is a Linux/Unix tool suite for Siemens SL45(i) mobile phones.
 
-%description -l pl
-SL45c to zestaw linuksowych/uniksowych narzêdzi dla telefonów
-komórkowych Siemens SL45(i).
+%description -l pl.UTF-8
+SL45c to zestaw linuksowych/uniksowych narzÄ™dzi dla telefonÃ³w
+komÃ³rkowych Siemens SL45(i).
 
 %prep
 %setup -q
