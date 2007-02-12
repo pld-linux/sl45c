@@ -1,5 +1,5 @@
 Summary:	SL45c - Siemens SL45 Control Center & Datasuite
-Summary(pl.UTF-8):   SL45c - narzędzia dla telefonów Siemens SL45
+Summary(pl.UTF-8):	SL45c - narzędzia dla telefonów Siemens SL45
 Name:		sl45c
 Version:	0.7
 Release:	0.1
