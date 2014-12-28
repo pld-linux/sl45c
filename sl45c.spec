@@ -11,7 +11,7 @@ Source0:	http://www.freshdot.net/sl45c/%{name}-%{version}.tar.gz
 URL:		http://www.freshdot.net/sl45c/
 BuildRequires:	automake
 BuildRequires:	autoconf
-BuildRequires:	gettext-devel
+BuildRequires:	gettext-tools
 BuildRequires:	libtool
 BuildRequires:	pcre-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
